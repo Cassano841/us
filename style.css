@@ -1,0 +1,30 @@
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Garante que o body ocupe toda a tela */
+  margin: 0;
+  flex-direction: column;
+}
+
+h2,
+p {
+  width: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+#random-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza elementos filhos */
+}
+
+img {
+  border: 5px solid black;
+  height: 600;
+  width: 400px;
+  display: block;
+  margin: 0 auto; /* Centraliza se o pai for um bloco */
+}
