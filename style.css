@@ -28,3 +28,11 @@ img {
   display: block;
   margin: 0 auto; /* Centraliza se o pai for um bloco */
 }
+
+.parent {
+  display: grid;
+  grid-template-columns: 3fr 1fr repeat(2, 0) ;
+  grid-template-rows: 1fr repeat(4, 0);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
